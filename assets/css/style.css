@@ -1,0 +1,314 @@
+html{
+    height: 150vh;
+    
+}
+
+.container{
+    
+    max-width: 1280px;
+    margin: auto;
+
+}
+
+.flex{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho{
+    transition: .5s;
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.cabecalho-detalhes{
+    background-color: #0364a1;
+    transition: .5s;
+    width: 100%;
+    padding: 60px 4%;
+    top: 0;
+    left: 0;
+
+}
+header.rolagem{
+    background-color: #0364a1;
+    padding: 20px 4%;
+
+}
+
+
+header.rolagem a button {
+    background-color: #a1acbd ;
+}
+
+header .container .flex p{
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+    font-family: montserrat;
+    font-size: 20px;
+
+}
+
+.btn-contato a button{
+    transition: 0.5s;
+    background-color: #effaff;
+    font-family: montserrat;
+    border-radius: 15px;
+    padding : 10px 50px;
+    font-size: 20px;
+
+}
+
+.header-content{
+    height: 100vh;
+    background: no-repeat top / cover url(../images/imagemBacground.jpg);
+    
+}
+
+
+
+
+
+
+.header-content{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.header-content h1{
+    font-family: montserrat;
+    font-size: 65px;
+    margin:45px 0;
+    font-weight: 600;
+
+}
+
+.header-content p{
+   
+    font-size: 15px;
+    font-family: montserrat;
+    
+
+}
+
+.container-titulo{
+    background-color: rgba(61, 71, 86, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 850px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+}
+.container-titulo p{
+    font-weight:600 ;
+    text-align: center;
+   
+}
+
+.btn-explore{
+
+    font-family: montserrat;
+    margin: 25px;
+    
+}
+.btn-explore a button{
+    font-size: 20px;
+    background-color: #effaff;
+    border-radius: 15px;
+    padding: 10px 50px;
+}
+
+#main-index{
+    background-color: #d7e5e3;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+
+    
+}
+
+#main-index .container-visao-geral .titulo-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+
+}
+
+#main-index .container-visao-geral .titulo-cards h2{
+    margin-bottom: 45px ;
+    font-size:45px;
+    font-family: montserrat;
+
+    
+}
+#main-index .container-visao-geral .titulo-cards p {
+    padding: 0 250px;
+    text-align: center;
+    font-size: medium;
+    font-family: montserrat;
+}
+
+
+
+
+
+
+.container-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px;
+     
+}
+
+.imagem-card{
+    width: 370px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+.card{
+    background-color: #a1acbd;
+    display: flex;
+    flex-direction: column;
+    padding: 0 45px;
+    margin: 25px;
+    height: 600px;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+
+
+.card img{
+    margin: 45px;
+    
+}
+
+.card a .btn-card{
+
+    padding: 20px 50px;
+    margin-top: 45px ;
+    border-radius: 15px;
+}
+
+.rodape{
+    max-width: auto;
+    height: 250px;
+    background-color: #3d4756;
+}
+
+.informacoes-footer{   
+ 
+    display: flex;
+    align-items: flex-start;
+    padding: 0 45px;
+
+    
+
+}
+
+
+
+.informacoes-footer .info{
+    padding: 20px;
+}
+
+
+
+.divisor{
+    border: 1px solid white;
+}
+
+.menu-footer{
+    
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.navbar-footer{
+
+   
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+}
+
+.navbar-footer ul {
+    display: flex;
+
+}
+
+.navbar-footer ul li {
+    margin: 0 45px;
+}
+
+
+.titulo-footer{
+
+    font-family: montserrat;
+    color: #f4faff;
+    padding-bottom: 5px;
+    
+}
+
+
+.text-footer{
+    width: 800px;
+    font-size: medium;
+    color: #f4faff;
+    font-family: montserrat;
+
+}
+.text-footer-final{
+
+    font-size: medium;
+    color: #f4faff;
+    font-family: montserrat;
+
+}
+
+.navbar-footer p{
+    font-family: montserrat;
+    font-size: 20px;
+    color: #effaff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
