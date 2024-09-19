@@ -1,8 +1,20 @@
+
+
 html{
     height: 150vh;
     
+    
 }
 
+
+
+
+button {
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
 .container{
     
     max-width: 1280px;
@@ -17,6 +29,8 @@ html{
     justify-content: space-between;
 }
 
+
+
 .cabecalho{
     transition: .5s;
     width: 100%;
@@ -27,20 +41,43 @@ html{
 
 }
 
+
 .cabecalho-detalhes{
     background-color: #0364a1;
-    transition: .5s;
+    transition: 1s;
     width: 100%;
     padding: 60px 4%;
     top: 0;
     left: 0;
 
 }
+
+header.rolagem-detalhes{
+    position: fixed;
+    background-color: #0364a1;
+    padding: 20px 4%;
+}
+headerDetalhes.rolagem-detalhes{
+    background-color: #0364a1;
+    padding: 20px 4%;
+    
+}
+
+
+
+headerDetalhes.rolagem-detalhes a button {
+    background-color: #a1acbd ;
+}
+
+
+
+
 header.rolagem{
     background-color: #0364a1;
     padding: 20px 4%;
-
+    
 }
+
 
 
 header.rolagem a button {
@@ -70,7 +107,7 @@ header ul li{
 
 }
 
-.header-content{
+  .header-content{
     height: 100vh;
     background: no-repeat top / cover url(../images/imagemBacground.jpg);
     
@@ -86,16 +123,26 @@ header ul li{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
 
+}
+.header-content .container-titulo{
+    margin-top: 280px;
 }
 
 .header-content h1{
+    color: #f4faff;
     font-family: montserrat;
-    font-size: 65px;
-    margin:45px 0;
+    font-size: 60px;
     font-weight: 600;
+    text-align: center;
 
+}
+
+.header-content h2{
+    color:#f4faff ;
+    font-family: montserrat;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .header-content p{
@@ -107,8 +154,7 @@ header ul li{
 }
 
 .container-titulo{
-    background-color: rgba(61, 71, 86, 0.2);
-    display: flex;
+    text-align: center;
     flex-direction: column;
     align-items: center;
     width: 850px;
@@ -137,14 +183,13 @@ header ul li{
 
 #main-index{
     background-color: #d7e5e3;
-    display: flex;
     justify-content: center;
     height: 100vh;
 
     
 }
 
-#main-index .container-visao-geral .titulo-cards{
+ .container-visao-geral .titulo-cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -153,14 +198,14 @@ header ul li{
 
 }
 
-#main-index .container-visao-geral .titulo-cards h2{
+ .container-visao-geral .titulo-cards h2{
     margin-bottom: 45px ;
     font-size:45px;
     font-family: montserrat;
 
     
 }
-#main-index .container-visao-geral .titulo-cards p {
+ .container-visao-geral .titulo-cards p {
     padding: 0 250px;
     text-align: center;
     font-size: medium;
@@ -176,6 +221,7 @@ header ul li{
     display: flex;
     justify-content: space-between;
     margin: 45px;
+
      
 }
 
@@ -194,8 +240,14 @@ header ul li{
     height: 600px;
     align-items: center;
     border-radius: 15px;
+    transition: .5s;
 
 }
+
+.card:hover{
+    transform: scale(1.1);
+}
+
 
 
 
@@ -209,6 +261,23 @@ header ul li{
     padding: 20px 50px;
     margin-top: 45px ;
     border-radius: 15px;
+}
+
+.card h2{
+    padding-bottom: 15px;
+}
+
+.card .container-btn a .btn-card {
+       font-family: montserrat; 
+}
+
+.card h2 {
+    font-family: montserrat;
+}
+
+.card  p{
+    font-family: montserrat;
+    font-size: 12px;
 }
 
 .rodape{
@@ -293,6 +362,271 @@ header ul li{
     font-size: 20px;
     color: #effaff;
 }
+
+.container-titulo-detalhes{
+    max-width: 1920px;     
+    display: flex;
+    padding: 10px  100px;
+    font-family: montserrat;
+    flex-direction: column ;
+    background-color: #effaff;
+    
+
+}
+
+.container-detalhes{
+    max-width: 1920px;     
+    display: flex;
+    padding: 10px  100px;
+    font-family: montserrat;
+    flex-direction: column ;
+
+    
+
+}
+
+
+
+.detalhes123{
+    background-color:#effaff;
+    display: flex;
+    padding: 45px;
+    height: 600px
+}
+
+.detalhes12{
+    background-color: #a1acbd;
+    display: flex;
+    padding: 60px 45px;
+    height: 600px
+}
+.video{
+    margin:0 30px;
+}
+.container-detalhes h1{
+    padding: 30px 60px;
+    text-align: center;
+    font-family: montserrat;
+    
+
+}
+
+.container-detalhes h2{
+    padding: 30px 60px;
+    text-align: center;
+    font-family: montserrat;
+    
+
+}
+.container-titulo-detalhes h2{
+    text-align: center;
+    padding: 50px 0;
+    font-family: montserrat;
+}
+
+
+    
+    
+.container-titlo-detalhes .texto-detalhes{
+    text-align: justify;
+    font-family: montserrat;
+    
+
+}
+
+
+.container-detalhes ul li {
+    margin: 15px;
+    font-family: montserrat;
+    
+}
+
+.negrito{
+    display: inline-block;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: montserrat;
+}
+
+.container-detalhes .video{
+    padding: 30px;
+    margin: auto;
+    
+    
+
+    
+}
+
+.container-conclusao{
+
+    padding: 10px 100px;
+    text-align: justify;
+    background-color: #effaff;
+    height: 100px;
+    font-family: montserrat;
+}
+.container-conclusao .txtconclusao {
+    font-family: montserrat;
+
+
+}
+
+
+.secao-info{
+    height: 100vh;
+    background: no-repeat center / cover url(../images/backgroundinfo.jpg);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.secao-detalhes{
+    height: 100vh;
+    background: no-repeat center / cover url(../images/beautiful-shot-field-with-waterfalls-hills.jpg);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.secao-info .titulo-info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+}
+.secao-info .titulo-info h1{
+    color: #f4faff;
+    padding-bottom: 100px;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.secao-detalhes .titulo-detalhes h1{
+    color: #f4faff;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+
+.secao-guia{
+    background-color: #a1acbd;
+    display: flex;
+    height: 800px;
+
+
+}
+
+.secao-guia .dicas-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px 100px;
+}
+.secao-guia .dicas-info ul{
+    font-family: montserrat;
+    padding: 60px;   
+    margin-top: 40px ; 
+}
+.secao-guia .dicas-info h2{
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: montserrat;
+}
+.secao-guia .dicas-info ul li{
+    padding: 10px;
+    text-align: justify;
+    font-family: montserrat;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.container-imagem-mapa{
+    display: flex;
+    padding-right: 100px;
+}
+.container-imagem-mapa .mapa-islandia {
+    height: 400px;
+    margin: auto;
+}
+
+.subtitulo{
+    display: flex;
+    height: 100px;
+    text-align: center;
+    background-color: #effaff;
+}
+.subtitulo h2{
+    height: 100%;
+    padding-top: 35px;
+    margin: auto;
+    font-family: montserrat;
+    font-size: 36px;
+    
+
+}
+
+.secao-cards{
+    background-color: #effaff;
+    height: 700px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 60px 0 0 0;
+
+}
+
+.icone{
+    width: 128px;
+    height: 128px;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    margin: 10px;
+}
+
+.card-info h2{
+    padding: 20px 0;
+    font-family: montserrat;
+    font-size: 30px;
+}
+
+.txt-curiosidades li{
+    padding: 10px 0;
+    font-family: montserrat;
+    font-weight: 500;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
