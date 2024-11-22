@@ -387,7 +387,7 @@ header ul li{
 
 
 
-.detalhes123{
+.detalhes1{
     background-color:#effaff;
     display: flex;
     padding: 45px;
@@ -398,6 +398,12 @@ header ul li{
     background-color: #a1acbd;
     display: flex;
     padding: 60px 45px;
+    height: 600px
+}
+.detalhes123{
+    background-color:#effaff;
+    display: flex;
+    padding: 45px;
     height: 600px
 }
 .video{
@@ -614,6 +620,38 @@ header ul li{
     font-family: montserrat;
     font-weight: 500;
     text-align: justify;
+}
+
+
+.containerDetalhes1{
+    display: none;
+}
+.containerDetalhes2{
+    display: none;
+}
+.containerDetalhes3{
+    display: none;
+}
+
+
+
+
+.hide{
+    height: 150px;
+    transition: 1s;
+}
+
+.show{
+    height: 600px;
+    transition: 1s;
+}
+.video-hide{
+    visibility: hidden;
+    
+}
+.video-show{
+    visibility: visible;
+    transition: 1s;
 }
 
 
