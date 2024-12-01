@@ -285,6 +285,17 @@ header ul li{
     height: 250px;
     background-color: #3d4756;
 }
+.rodape-forms{
+    max-width: auto;
+    height: auto;
+    background-color: #3d4756;
+}
+
+.rodape-galeria{
+    max-width: auto;
+    height: auto;
+    background-color: #3d4756;
+}
 
 .informacoes-footer{   
  
@@ -501,6 +512,26 @@ header ul li{
     
     
 }
+.secao-galeria{
+    height: 100vh;
+    background: no-repeat center / cover url(../images/formulario.jpeg);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.secao-formulario{
+    height: 100vh;
+    background: no-repeat center / cover url(../images/galeria.jpeg);
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
 
 .secao-info .titulo-info{
     
@@ -520,6 +551,20 @@ header ul li{
 }
 
 .secao-detalhes .titulo-detalhes h1{
+    color: #f4faff;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.secao-galeria .titulo-galeria h1{
+    color: #f4faff;
+    font-family: montserrat;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.secao-formulario .titulo-galeria h1{
     color: #f4faff;
     font-family: montserrat;
     font-size: 60px;
@@ -655,10 +700,53 @@ header ul li{
 }
 
 
+.fileiraGaleria{
+    padding: 30px;
+    
+}
+dialog[open] {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1000; /* Fica acima do conteúdo */
+  }
+  
+.section-forms{
+    background-color: #a1acbd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    width: 600px;
+    height:380px ;
+    margin: 40px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: #a1acbd;
+    
+}
+.container-forms{
+    background-color: #a1acbd;
+}
 
 
-
-
+textarea{
+    
+    width: 568px;
+    height: 150px;
+    resize: none;
+}
 
 
 

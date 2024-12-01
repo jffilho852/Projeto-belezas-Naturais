@@ -2,13 +2,23 @@
     padding: 0;
     margin: 0;
     list-style: none;
-    vertical-align: baseline; 
+    vertical-align: baseline;
     text-decoration: none;
     color: inherit;
     font-family: montserrat;
 }
 
-button{
-    border: none ;
+a {
+    /* all: unset; */
+    /* Remove todos os estilos aplicados */
+    color: inherit;
+    /* Preserva a cor herdada */
+
+    /* Remove sublinhado */
 }
 
+
+
+button {
+    border: none;
+}
